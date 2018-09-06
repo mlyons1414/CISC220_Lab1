@@ -24,6 +24,7 @@ void CollatzV2();
 bool isPrimeRecursive(int Num, int testdivisor);
 int multTableRecursive(int n, int tablevalue);
 
+//MAIN
 int main() {
 	//PROBLEM 1
 	cout << "Hello World" << endl;
@@ -71,6 +72,7 @@ int main() {
 	stars();
 
 	//PROBLEM 10
+	xStars(5);
 
 	//PROBLEM 11
 	CollatzV2();
@@ -78,9 +80,11 @@ int main() {
 
 	//PROBLEM 12
 	cout << isPrimeRecursive(15, 2) << endl;
+	stars();
 
 	//PROBLEM 13
 	multTableRecursive(12, 1);
+	stars();
 
 	return 0;
 }
